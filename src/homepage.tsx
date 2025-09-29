@@ -74,8 +74,8 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-background">
       <Header />
-      <div className="max-w-7xl mx-auto px-4 md:px-4 sm:px-6 lg:px-8">
-        <div className="flex gap-8 mt-8">
+      <div className="md:max-w-7xl mx-auto px-4 md:px-4 sm:px-6 lg:px-8">
+        <div className="flex gap-8 md:mt-8">
           {/* Main Content */}
           <main className="flex-1 max-w-none lg:max-w-2xl space-y-10 px-0! md:px-10">
             <NavigationTabs />
