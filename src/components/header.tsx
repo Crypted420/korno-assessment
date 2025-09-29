@@ -35,7 +35,7 @@ export function Header() {
               <SearchIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
               <Input
                 placeholder="Search"
-                className="pl-10 bg-muted/50 border-0 focus-visible:ring-1 focus-visible:ring-ring rounded-full"
+                className="pl-10 bg-muted/30 border-0  rounded-full"
               />
             </div>
           </div>
@@ -57,7 +57,7 @@ export function Header() {
             >
               <BellIcon className="h-5 w-5" />
             </Button>
-            <SearchIcon className="h-8 w-8 sm:hidden hover:bg-muted text-gray-400" />
+            <SearchIcon className="h-6 w-6 sm:hidden hover:bg-muted text-gray-400" />
             <Avatar className="h-8 w-8 cursor-pointer hover:opacity-80 transition-opacity">
               <AvatarFallback className="bg-primary text-primary-foreground text-sm">
                 S

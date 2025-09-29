@@ -2,22 +2,10 @@ import { MoreHorizontal } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { BookmarkIcon, ClapIcon, CommentIcon, MinusCircleIcon, StarIcon } from "./icons"
-
-export interface Article {
-  id: number
-  publication: string
-  authorUrl: string
-  author: string
-  title: string
-  excerpt: string
-  timeAgo: string
-  claps: number
-  comments: number
-  image: string
-}
+import { type ArticleInterface } from "@/lib/interfaces"
 
 interface ArticleCardProps {
-  article: Article
+  article: ArticleInterface
 }
 
 export function ArticleCard({ article }: ArticleCardProps) {

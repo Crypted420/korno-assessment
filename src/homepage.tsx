@@ -1,9 +1,10 @@
 import { Header } from "@/components/header"
 import { NavigationTabs } from "@/components/navigation-tabs"
-import { ArticleCard, type Article } from "@/components/article-card"
+import { ArticleCard } from "@/components/article-card"
 import { Sidebar } from "@/components/sidebar"
+import type { ArticleInterface } from "./lib/interfaces"
 
-const articles: Article[] = [
+const articles: ArticleInterface[] = [
   {
     id: 1,
     publication: "Neo4j Developer Blog",
